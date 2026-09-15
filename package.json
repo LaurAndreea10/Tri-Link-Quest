@@ -1,0 +1,1 @@
+{"name":"tri-link-quest","version":"1.0.0","private":true,"type":"module","description":"Accessible puzzle, match-3 and connect browser game","scripts":{"test":"node --test tests/*.test.js","check":"node --check tests/game-contract.test.js && node --test tests/*.test.js"},"engines":{"node":">=20"}}
