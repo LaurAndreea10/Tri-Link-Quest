@@ -8,6 +8,7 @@ Tri-Link Quest este un joc accesibil 3-în-1 pentru browser: rezolvi un puzzle g
 
 ## Funcții
 
+- alegere liberă între Puzzle, Match și Connect din prima rundă
 - campanie cu 10 niveluri
 - dificultăți Easy, Normal și Hard
 - scor, XP, streak și record persistent
