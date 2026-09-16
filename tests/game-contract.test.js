@@ -24,3 +24,11 @@ test('manifest is installable',()=>{
   assert.equal(manifest.start_url,'./');
   assert.ok(manifest.icons.length>=2);
 });
+
+test('lets the player choose all three modes immediately',()=>{
+  const nav=html.match(/<nav class="tabs"[\s\S]*?<\/nav>/)?.[0]||'';
+  assert.doesNotMatch(nav,/disabled/);
+  assert.match(nav,/PUZZLE/);
+  assert.match(nav,/MATCH/);
+  assert.match(nav,/CONNECT/);
+});
